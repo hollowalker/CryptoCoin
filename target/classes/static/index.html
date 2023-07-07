@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CryptoCoin</title>
+    <!-- версия для разработки, включает отображение полезных предупреждений в консоли -->
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1 class="crypto__title">CryptoCoin</h1>
+<div class="form__wrap">
+    <div id="crypto__form">
+        <input name="coinName" type="text" id="crypto__search"/>
+        <input type="button" id="crypto__button" value="search"/>
+    </div>
+</div>
+<div class="coin__table">
+    <div class="coin__table__row__wrap" id="coin__table__head">
+        <div class="coin__table__row">
+            <div class="col-0 col">img</div>
+            <div class="col-1 col">uuid</div>
+            <div class="col-2 col">name</div>
+            <div class="col-4 col">price</div>
+            <div class="col-3 col">currency</div>
+            <div class="col-5 col">changed in 24h</div>
+        </div>
+    </div>
+    <div class="coin__table__row__wrap">
+        <div class="coin__table__row" id="coin_info_wrap">
+            <div class="col-0 col">
+                <img id="coin-img" src="" />
+            </div>
+            <div class="col-1 col" id="coin-uuid"></div>
+            <div class="col-2 col" id="coin-name"></div>
+            <div class="col-4 col" id="coin-price"></div>
+            <div class="col-3 col" id="coin-curCurrency"></div>
+            <div class="col-5 col" id="coin-price-changed"></div>
+        </div>
+        <div class="coin__table__row" id="search_error">
+            Ошибка, монета не найдена, либо ошибка сервиса
+        </div>
+    </div>
+</div>
+<script src="/js/main.js"></script>
+</body>
+</html>

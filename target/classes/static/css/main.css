@@ -1,0 +1,102 @@
+*,body{
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    background: #f8e8f6;
+}
+.crypto__title,.search-coin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crypto__title {
+    background-color: #9ca1df;
+    color: #f3f3f3;
+    height: 70px;
+}
+#crypto__form {
+    display: flex;
+    justify-content: center;
+    background: #f8e8f6;
+    position: relative;
+}
+.form__wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#crypto__search {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #7da4d9;
+}
+#crypto__search {
+    height: 42px;
+    padding-left: 10px;
+    padding-right: 82px;
+    border: 2px solid #9ca1df;
+    border-radius: 5px;
+    outline: none;
+    background: #f8e8f6;
+    color: #9ca1df;
+}
+#crypto__button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 72px;
+    height: 46px;
+    border: none;
+    background: #9ca1df;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    color: #f3f3f3;
+    font-size: 16px;
+}
+.coin__table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.coin__table__row__wrap {
+    width: 100%;
+    position: relative;
+    height: 60px;
+    display: flex;
+    padding: 10px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.coin__table__row {
+    display: flex;
+    height: 100%;
+    background: #f3f3f3;
+    border-radius: 5px;
+    padding: 0 20px;
+    align-items: center;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 100%;
+    align-items: center;
+}
+.col-0, .col-0>img{
+    width:  40px
+}
+#search_error {
+    color: #f73816;
+    display: none;
+}
+#coin__table__head {
+    display: none;
+}
+#coin_info_wrap {
+    display: none;
+}
